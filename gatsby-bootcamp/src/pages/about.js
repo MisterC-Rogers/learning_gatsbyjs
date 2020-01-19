@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../Components/layout'
 
 
@@ -8,6 +9,7 @@ export default function about() {
             <div>
                 <h1>About Me</h1>
                 <p>This will hold info about me.</p>
+                <p>Need a developer? <Link to="/contact">Contact Me</Link></p>
             </div>
         </Layout>
     )

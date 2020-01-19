@@ -1,16 +1,14 @@
 import React from 'react'
-import Header from '../Components/header'
-import Footer from '../Components/footer'
+import Layout from '../Components/layout'
+
 
 export default function blog() {
     return (
-    <>
-        <Header />
-        <div>
-            <h1>My Blog</h1>
-            <p>We will have posts here</p>
-        </div>
-        <Footer />
-    </>
+        <Layout>
+            <div>
+                <h1>My Blog</h1>
+                <p>We will have posts here</p>
+            </div>
+        </Layout>
     )
 }

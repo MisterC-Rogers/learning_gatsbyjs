@@ -1,16 +1,14 @@
 import React from 'react'
-import Header from '../Components/header'
-import Footer from '../Components/footer'
+import Layout from '../Components/layout'
+
 
 export default function about() {
     return (
-    <>
-        <Header />
-        <div>
-            <h1>About Me</h1>
-            <p>This will hold info about me.</p>
-        </div>
-        <Footer />
-    </>
+        <Layout>
+            <div>
+                <h1>About Me</h1>
+                <p>This will hold info about me.</p>
+            </div>
+        </Layout>
     )
 }

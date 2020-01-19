@@ -7,7 +7,7 @@ export default function contact() {
         <Layout>
             <div>
                 <h1>Contact Me</h1>
-                <p>You can contact me through Twitter <a href="https://twitter.com/@MisterCRogers" target="_blank">@MisterCRogers</a></p>
+                <p>You can contact me through Twitter <a href="https://twitter.com/@MisterCRogers" target="_blank" rel='noopener noreferrer'>@MisterCRogers</a></p>
             </div>
         </Layout>
     )

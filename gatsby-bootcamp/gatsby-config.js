@@ -3,6 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+require("dotenv").config();
 
 module.exports = {
   /* Your site config here */
@@ -34,6 +35,13 @@ module.exports = {
             }
           }
         ]
+      }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `z60j10q2700j`, //process.env.CONTENTFUL_SPACE_ID,
+        accessToken: `0SKICb7vUTLUhxPgmQbXkcKqu207l7y4gKFDpn1C4zE`//process.env.CONTENTFUL_ACCESS_TOKEN
       }
     }
   ]
